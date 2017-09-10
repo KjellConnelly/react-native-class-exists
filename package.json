@@ -1,0 +1,20 @@
+
+{
+  "name": "react-native-class-exists",
+  "version": "1.0.0",
+  "description": "Do runtime checks if a native class exists. Useful when you weak link libraries (like iOS 11 having ARKit, and you still want iOS 10 users to be able to use your app without ARKit features).",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native", "class", "runtime", "check", "weak", "weak-linking", "link"
+  ],
+  "author": "Kjell Connelly",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2",
+    "react-native-windows": "0.41.0-rc.1"
+
+  }
+}
