@@ -45,21 +45,4 @@ RCT_EXPORT_METHOD(classMethodResponse: (NSString *)className : (NSString *)metho
     }
 }
 
-/*
-BOOL exists = [self classExists:field1.text];
-if (exists) {
-    Class myClass = NSClassFromString(field1.text);
-    SEL selector = NSSelectorFromString(field2.text);
-    if ([myClass respondsToSelector:selector]) {
-        BOOL works = [myClass performSelector:selector];
-        
-        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"" message:[NSString stringWithFormat:@"%@", works ? @"Works" : @"Doesn't"] preferredStyle:UIAlertControllerStyleAlert];
-        [alert addAction:[UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleDefault handler:nil]];
-        [self presentViewController:alert animated:true completion:nil];
-    } else {
-    }
-    
-}
- */
-
 @end
