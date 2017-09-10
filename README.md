@@ -1,7 +1,8 @@
 
 # react-native-class-exists
 
-Works with
+Works currently with:
+
 | iOS | Android | Windows |
 | --- | ------- | ------- |
 | Yes |    No   |   No    |
