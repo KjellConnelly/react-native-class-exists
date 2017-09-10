@@ -4,7 +4,7 @@
 Works with
 | iOS | Android | Windows |
 | --- | ------- | ------- |
-| Yes | No | No |
+| Yes |    No   |   No    |
 
 #### Why would I use this?
 The situation may arise where you want to incorporate 'new features' that may not run on all your users devices. For instance, a user with iOS 9 will not be able to use SiriKit, whereas a user with iOS 10 will. You can check at run time whether a class exists using this module. You can also use this module to check for device capabilities. For instance, being able to check if a user's device supports ARKit (even if they have iOS 11+, their hardware may not support it).
