@@ -52,9 +52,6 @@ The situation may arise where you want to incorporate 'new features' that may no
 | ----------------------------------------------------------- | ------------------------ |
 | BOOL | Boolean |
 | NSNumber | Number |
-| int | Number |
-| float | Number |
-| double | Number |
 | NSString or String | String |
 Remember to include the correct returnType for the method you will be calling
 

@@ -24,15 +24,6 @@ RCT_EXPORT_METHOD(classMethodResponse: (NSString *)className : (NSString *)metho
             } else if ([type isEqualToString:@"NSNUMBER"]) {
                 NSNumber *response = [myClass performSelector:selector];
                 callback(@[[NSNumber numberWithBool:true],response]);
-            } else if ([type isEqualToString:@"INT"]) {
-                int response = [myClass performSelector:selector];
-                callback(@[[NSNumber numberWithBool:true],[NSNumber numberWithInt:response]]);
-            } else if ([type isEqualToString:@"FLOAT"]) {
-                float response = [myClass performSelector:selector];
-                callback(@[[NSNumber numberWithBool:true],[NSNumber numberWithFloat:response]]);
-            } else if ([type isEqualToString:@"DOUBLE"]) {
-                double response = [myClass performSelector:selector];
-                callback(@[[NSNumber numberWithBool:true],[NSNumber numberWithDouble:response]]);
             } else if ([type isEqualToString:@"NSSTRING"] || [type isEqualToString:@"STRING"]) {
                 NSString *response = [myClass performSelector:selector];
                 callback(@[[NSNumber numberWithBool:true],response]);
